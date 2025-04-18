@@ -1,0 +1,107 @@
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  .register-box {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .register-box h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .subtitle {
+    color: #444;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+  
+  .register-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .register-box input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    color: #000;
+    transition: border-color 0.3s;
+  }
+  
+  .register-box input:focus {
+    outline: none;
+    border-color: #000;
+  }
+  
+  .register-box button {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-box button:hover {
+    background-color: #333;
+  }
+  
+  .error {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .login-link a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .login-link a:hover {
+    color: #111;
+  }
+  
+  /* ✅ Responsive */
+  @media (max-width: 480px) {
+    .register-box {
+      padding: 25px;
+    }
+  
+    .register-box h2 {
+      font-size: 22px;
+    }
+  
+    .register-box button,
+    .register-box input {
+      font-size: 15px;
+      padding: 10px;
+    }
+  }
+  
