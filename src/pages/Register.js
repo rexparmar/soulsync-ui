@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import API from '../services/api';
-import '.   /Register.css';
+import './Register.css';
 
 function Register() {
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ function Register() {
       const res = await API.post('/auth/register', formData);
       if (res.data.token) {
         localStorage.setItem('token', res.data.token);
-        navigate('/');
+        navigate('/login');
       } else {
         setError("Registration failed. Please try again.");
       }

@@ -1,0 +1,69 @@
+.logmood-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .logmood-container h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  select, textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #222;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: green;
+  }
+  
+  .quote-box {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #000;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+  
+  .quote-box h4 {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+  
